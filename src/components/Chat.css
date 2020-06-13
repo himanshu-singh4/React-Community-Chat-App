@@ -1,0 +1,119 @@
+.body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.message-container {
+    height: 70vh;
+    width: 90%;
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.message-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.loginInput {
+    margin: 60px auto 20px auto;
+    width: 150px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    transition: .5s ease;
+}
+
+.send-button {
+    display: inline-block;
+    height: 23px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.submit-button {
+    width: 130px;
+    height: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.loginInput:focus {
+    transition: .5s ease-in-out;
+    width: 300px;
+}
+
+.loginInput::placeholder {
+    font-style: italic;
+    color: white;
+}
+
+#message {
+    padding: 10px 10px;
+    max-width: 10vw;
+    margin-bottom: 10px;
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+
+.you {
+    margin-left: auto !important;
+}
+
+.join {
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: green;
+    margin: 5px auto !important;
+}
+
+.disconnect {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+form {
+    padding-top: 30px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.send-button-container {
+    margin-top: 10px;
+    display: inline-block;
+    width: fit-content;
+    margin-left: 20px;
+    vertical-align: 15px;
+}
+
+.messageInput {
+    margin-bottom: 10px !important;
+    width: 40vw;
+    height: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.loginForm {
+    margin: 100px auto;
+    width: 30vw;
+    height: 300px;
+    box-shadow: 5px 5px 15px 8px rgba(0, 0, 0, .2);
+    align-items: center;
+}
